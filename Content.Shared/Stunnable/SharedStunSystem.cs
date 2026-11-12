@@ -233,6 +233,8 @@ public abstract class SharedStunSystem : EntitySystem
         return TryKnockdown(uid, time, refresh, status) && TryStun(uid, time, refresh, status);
     }
 
+    
+
     /// <summary>
     ///     Slows down the mob's walking/running speed temporarily
     /// </summary>
